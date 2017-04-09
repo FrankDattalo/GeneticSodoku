@@ -1,0 +1,25 @@
+There are multiple ways to run this project.
+
+To run either genetic/hillclimb search directly, 
+navigate to the respective Main.java classes within the respective packages.
+
+Provide the command line arguments to the program through the eclipse menu.
+
+Each package also contains TestHarness.java classes to run the respective
+algorithms. 
+
+Finally, included in the test package, is StdinTestHarness.java which can be 
+used to set up either problem by reading from standard input. The program
+prompts the user for either <hc/ga> for hill climbing or genenetic algorithm 
+respectively, then the location of the file. Then the respective algorithm is 
+run for the specified file.
+
+Both algorithms were also tested with the test cases within the test folder.
+Each test file contains a different test situation.
+
+test1.txt - the provided test case.
+test2.txt - modified version of test1.txt.
+test3.txt - test empty board.
+test4.txt - almost completed board.
+test5.txt - completed board.
+test6.txt - a completed board minus one position.
